@@ -22,9 +22,9 @@ var accessElementInArray(array,index){
   return array[index];
 }
 return array;
-var removeElementFromBeginningOfArray= function (array) {
+function removeElementFromBeginningOfArray (array) {
   return array.slice(1);
 }
-var removeElementFromEndOfArray =function (array){}
+function removeElementFromEndOfArray (array){}
   return array.slice(0, chocolateBars.lenght-1);
 }
